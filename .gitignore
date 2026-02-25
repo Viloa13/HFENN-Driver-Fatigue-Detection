@@ -1,0 +1,200 @@
+# ============================================================
+# Large data files
+# ============================================================
+*.csv
+*.xlsx
+*.xls
+*.npz
+
+# Allow small CSVs in plot_data and results
+!plot_data/*.csv
+!plot_data/ablation_results.csv
+!plot_data/ablation_study_results.csv
+!plot_data/per_participant_metrics.csv
+!plot_data/plot_data_feature_importance.csv
+!plot_data/plot_data_band_importance.csv
+!plot_data/plot_data_standardization_effect.csv
+!plot_data/standardization_stats.csv
+!plot_data/ablation_full_results.json
+!training_history.csv
+!ablation_results.csv
+!selected_feature_names.txt
+!被试人统计信息.csv
+
+# ============================================================
+# Model weights (large binary files)
+# ============================================================
+*.keras
+*.h5
+*.tflite
+*.pb
+*.ckpt
+*.pkl
+*.onnx
+
+# ============================================================
+# Large image/plot outputs (not figures/)
+# ============================================================
+Enhanced_HFENN_*.png
+Enhanced_HFENN_*.pdf
+Feature_Distribution_*.png
+Feature_Standardization_*.png
+Feature_Standardization_*.pdf
+Figure_HFENN_Performance.tiff
+HFENN_Advanced_Results.png
+HFENN_Regression_*.png
+HFENN_Sigmoid_*.png
+HFENN_affine_*.png
+HFENN_affine_*.csv
+HFENN_dead_*.csv
+HFENN_distribution_*.png
+HFENN_kalman_*.png
+HFENN_kalman_*.csv
+HFENN_personalized_*.png
+HFENN_personalized_*.csv
+HFENN_quality_gate_*.png
+HFENN_quality_gate_*.csv
+HFENN_tSNE_*.png
+HFENN_tSNE_*.pdf
+HFENN_tSNE_*.csv
+Personalized_HFENN_*.png
+Personalized_HFENN_*.json
+Per_Participant_*.png
+Per_Participant_*.pdf
+Training_*.png
+Training_*.pdf
+improved_lx*.png
+improved_lx*.pdf
+improved_lx*.eps
+lx2_*.png
+lx3_*.png
+lx3_*.pdf
+lx3_*.eps
+output*.png
+reproduce_figure8.png
+model_comparison.png
+model_comparison.pdf
+model_structure.png
+response_time_comparison.png
+interaction_latency*.png
+Final_*.png
+Optimized_*.png
+Simplified_*.png
+Clean_English_*.png
+Detailed_*.png
+Reference_Style_*.png
+wcnn_confusion_matrix.png
+hfenn.tif
+wcnn.tif
+
+# ============================================================
+# All root-level notebooks excluded (canonical copies are in notebooks/)
+# ============================================================
+/*.ipynb
+
+# Allow notebooks in the notebooks/ subdirectory
+!notebooks/
+!notebooks/*.ipynb
+
+# ============================================================
+# Root-level redundant .py scripts (canonical copies are in src/)
+# ============================================================
+/HFENN1-10.py
+/HFENN_enhaced.py
+/HFENN_enhaced_personalized_lx3.py
+/Hfenn_enhaced_personalized_lx1.py
+/Hfenn_enhaced_personalized_lx2.py
+/lx1.py
+/lx2.py
+/lx2_1.py
+/lx3.py
+/WCNN-1-19.py
+/Untitled2.py
+/超参数.py
+/huitu.py
+/huitu2.py
+/指令识别模型1.py
+/reproduce_figure8.py
+/run_verification.py
+/simple_confusion_matrix_cell.py
+/plot_latency_comparison.py
+/retrain_wcnn.py
+/retrain_wcnn_fix.py
+
+# Root-level scripts already copied to src/ — exclude root copies
+/HFENN_visualization_v2.py
+/HFENN_visualization.py
+/HFENN_ablation_study.py
+/HFENN_ablation_study_v2.py
+/HFENN_hyperparameter_sensitivity.py
+/hfenn_interface.py
+/v2x_integration_example.py
+/generate_continuous_fatigue.py
+/data.py
+/fix_wcnn_model_v2.py
+
+# ============================================================
+# Python cache
+# ============================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ============================================================
+# Jupyter checkpoints
+# ============================================================
+.ipynb_checkpoints/
+
+# ============================================================
+# IDE settings
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================================================
+# OS files
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Screenshots and temp images
+# ============================================================
+屏幕截图*.png
+
+# ============================================================
+# Training diagnosis / temp JSON
+# ============================================================
+training_diagnosis.json
+fatigue_detection_results.json
+Personalized_HFENN_Results.json
+
+# ============================================================
+# Checkpoint model dirs and large experiment directories
+# ============================================================
+ckpt/
+models/
+t-SNE/
+emergency_avoidance_test0719/
+指令识别模型数据/
+data/
+
+# ============================================================
+# Other large / irrelevant root-level files
+# ============================================================
+超参数.tif
+combined_data.csv
+normalized_*.csv
+emotion_data.csv
+lx*.csv
+ablation_results.csv
+Figure_HFENN_Performance.*
+Figure_HFENN_Performance.eps
+HFENN_Advanced_Results.pdf
+README_Visualization.md
+README_DriverStateDetector.md
