@@ -1,10 +1,10 @@
-# HFENN: Driver Fatigue & Emotion Detection via Wearable Biosignals
+# DASRM: Driver Abnormal State Recognition Model
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://tensorflow.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-A dual-channel deep learning system for **real-time driver fatigue regression** and **emotion classification** using wearable pulse and blink signals, designed for V2X (Vehicle-to-Everything) safety integration.
+Official implementation of **DASRM**: a deep regression and dynamic calibration framework for continuous driver abnormal state recognition using wearable biosignals.
 
 ---
 
